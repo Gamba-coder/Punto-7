@@ -1,0 +1,11 @@
+# Pedir al usuario el número de horas trabajadas
+horas_trabajadas = float(input("Introduce el número de horas trabajadas: "))
+
+# Pedir al usuario el coste por hora
+coste_por_hora = float(input("Introduce el coste por hora: "))
+
+# Calcular la paga total
+paga_total = horas_trabajadas * coste_por_hora
+
+# Mostrar la paga que le corresponde
+print(f"La paga total es: {paga_total:.2f}")
